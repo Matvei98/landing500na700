@@ -31,6 +31,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
+    "@vercel/webpack-asset-relocator-loader": "^1.7.3",
     "jquery": "^3.7.1",
     "postcss-preset-env": "^9.1.4",
     "slick-carousel": "^1.8.1",
