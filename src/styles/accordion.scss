@@ -1,0 +1,118 @@
+.main_container {
+    display: flex;
+    background-color: black;
+    flex-direction: column;    
+}
+.accordion-wrapper{
+	padding: 40px 0 100px;
+  }
+
+.accordion-container{
+	display: flex;
+	width: 1240px;
+	padding-left: 100px;
+	h2{
+	  margin-right: 100px;
+	  font-style: normal;
+	  font-weight: 500;
+	  font-size: 80px;
+	  line-height: 85px;
+	  letter-spacing: -0.03em;
+	  color: #FFFFFF;
+	}
+}
+.content{
+width: 988px;
+margin-top: 80px;
+}
+.accordion{
+	width: 100%;
+	border-top: 1px solid #FFFFFF;
+}
+.accordion-item{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .accordion-item-trigger{
+	padding: 30px 0;
+	cursor: pointer;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 35px;
+	color: #FFFFFF;
+  }
+  .accordion-item-content {
+	padding-bottom: 30px;
+	display: none;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFFFFF;
+  }
+  
+  
+  .accordion-item-active .accordion-item-content{
+	display: block;
+  }
+
+
+  @media screen and (min-width:320px) and (max-width:768px) {
+	.main_container {
+		display: flex;
+		background-color: black;
+		flex-direction: column;    
+	}
+	.accordion-wrapper{
+		padding: 40px 0 100px;
+	  }
+	
+	.accordion-container{
+		display: flex;
+		width: 1240px;
+		padding-left: 100px;
+		h2{
+		  margin-right: 100px;
+		  font-style: normal;
+		  font-weight: 500;
+		  font-size: 80px;
+		  line-height: 85px;
+		  letter-spacing: -0.03em;
+		  color: #FFFFFF;
+		}
+	}
+	.content{
+	width: 988px;
+	margin-top: 80px;
+	}
+	.accordion{
+		width: 100%;
+		border-top: 1px solid #FFFFFF;
+	}
+	.accordion-item{
+		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	  }
+	  .accordion-item-trigger{
+		padding: 30px 0;
+		cursor: pointer;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 35px;
+		color: #FFFFFF;
+	  }
+	  .accordion-item-content {
+		padding-bottom: 30px;
+		display: none;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 24px;
+		color: #FFFFFF;
+	  }
+	  
+	  
+	  .accordion-item-active .accordion-item-content{
+		display: block;
+	  }
+}
